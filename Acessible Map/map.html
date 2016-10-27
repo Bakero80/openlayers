@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Accessible Map</title>
+    <link rel="stylesheet" href="http://openlayers.org/en/v3.18.2/css/ol.css" type="text/css">
+    <link rel="stylesheet" href="map.css" media="screen" title="no title">
+    <script src="http://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script src="http://openlayers.org/en/v3.18.2/build/ol.js"></script>
+
+  </head>
+  <body>
+    <h1>The most beautiful map in the world</h1>
+    <a class="skiplink" href="#map">Go to map</a>
+    <div id="map" class="map" tabindex="0"></div>
+    <input id="swipe" type="range"></input>
+    <button id="zoom-out">Zoom out</button>
+    <button id="zoom-in">Zoom in</button>
+    <script type="text/javascript" src="map.js">
+
+    </script>
+  </body>
+</html>
