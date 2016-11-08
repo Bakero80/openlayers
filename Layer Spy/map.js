@@ -7,7 +7,10 @@ var roads = new ol.layer.Tile({
     });
 
 var imagery = new ol.layer.Tile({
-        source: new ol.source.BingMaps({key: key, imagerySet: 'Aerial'})
+        source: new ol.source.BingMaps({
+        key: key,
+        imagerySet: 'Aerial'
+        })
     });
 
 var container = document.getElementById('map');
