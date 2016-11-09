@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://openlayers.org/en/v3.19.1/css/ol.css" type="text/css">
+    <script src="https://openlayers.org/en/v3.19.1/build/ol.js"></script>
+    <title>Mouse Position</title>
+  </head>
+  <body>
+    <div id="map" class="map"></div>
+    <div id="mouse-position"></div>
+    <form>
+      <label>Projection </label>
+      <select id="projection">
+        <option value="EPSG:4326">EPSG:4326</option>
+        <option value="EPSG:3857">EPSG:3857</option>
+      </select>
+      <label>Precision </label>
+      <input id="precision" type="number" min="0" max="12" value="4"/>
+    </form>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

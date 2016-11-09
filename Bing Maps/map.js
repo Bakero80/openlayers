@@ -25,7 +25,7 @@ var map = new ol.Map({
      loadTilesWhileInteracting: true,
      target: 'map',
      view: new ol.View({
-     center: [-6655.5402445057125, 6709968.258934638],
+     center: [-179191.1136, 5977146.7838],
      zoom: 13
           })
      });
