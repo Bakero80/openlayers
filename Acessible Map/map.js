@@ -27,7 +27,6 @@ var swipe = document.getElementById('swipe');
 
       bing.on('precompose', function(event) {
       var ctx = event.context;
-      console.log(swipe.value);
       var width = ctx.canvas.width * (swipe.value / 100);
 
       ctx.save();
