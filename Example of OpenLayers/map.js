@@ -19,7 +19,7 @@ Ext.application({
                         renderer: 'canvas',
                         layers: [osmLayer],
                         view: new ol.View({
-                            center: [-10764594.0, 4523072.0],
+                            center: [-179234.679536, 5977176.756194],
                             zoom: 5
                         })
                     });

@@ -19,8 +19,8 @@ var map = new ol.Map({
     ],
         target: 'map',
         view: new ol.View({
-        center: [0, 0],
-        zoom: 2
+        center: [-179234.679536, 5977176.756194],
+        zoom: 12
         })
     });
 var projectionSelect = document.getElementById('projection');

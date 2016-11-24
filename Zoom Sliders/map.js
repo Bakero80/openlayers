@@ -9,8 +9,8 @@ var createMap = function(divId) {
           layers: [layer],
           target: divId,
           view: new ol.View({
-            center: [0, 0],
-            zoom: 2
+            center: [-179234.679536, 5977176.756194],
+            zoom: 12
           })
         });
         zoomslider = new ol.control.ZoomSlider();
@@ -19,4 +19,4 @@ var createMap = function(divId) {
       };
       var map1 = createMap('map1');
       var map2 = createMap('map2');
-      var map3 = createMap('map3');      
+      var map3 = createMap('map3');

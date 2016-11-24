@@ -2,7 +2,7 @@ var map = new ol.Map({
   target: 'map',
   view: new ol.View({
     projection: 'EPSG:3857', //HERE IS THE VIEW PROJECTION
-    center: [0, 0],
+    center: [-179234.679536, 5977176.756194],
     zoom: 2
   }),
   layers: [

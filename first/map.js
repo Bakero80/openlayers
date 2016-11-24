@@ -3,8 +3,8 @@ var map = new ol.Map(
 });
 
 map.setView(new ol.View({
-    center: [27, 7],
-    zoom: 4
+    center: [-179234.679536, 5977176.756194],
+    zoom: 10
 }));
 
 var osmSource = new ol.source.OSM();

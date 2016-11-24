@@ -14,17 +14,17 @@ var vectorSource = new ol.source.Vector({
 var vector = new ol.layer.Vector({
         source: vectorSource,
         style: new ol.style.Style({
-          stroke: new ol.style.Stroke({
-            color: 'rgba(0, 0, 255, 1.0)',
-            width: 2
+        stroke: new ol.style.Stroke({
+        color: 'rgba(0, 0, 255, 1.0)',
+        width: 2
         })
       })
 });
 
 var raster = new ol.layer.Tile({
         source: new ol.source.BingMaps({
-          imagerySet: 'Aerial',
-          key: 'Ajv8dPY2bornArG97S2Ag8Y_OZAprc8zDA41At3gWtcj8h4atV4uSbQ5WHO_pNBq'
+        imagerySet: 'Aerial',
+        key: 'Ajv8dPY2bornArG97S2Ag8Y_OZAprc8zDA41At3gWtcj8h4atV4uSbQ5WHO_pNBq'
       })
 });
 
@@ -33,7 +33,7 @@ var map = new ol.Map({
         target: document.getElementById('map'),
         view: new ol.View({
           center: [-179234.679536, 5977176.756194],
-          maxZoom: 19,
+          maxZoom: 15,
           zoom: 12
     })
 });
