@@ -1,3 +1,5 @@
+//Cet exemple charge de nouvelles fonctionnalités de GeoServer WFS lorsque l'étendue de vue change.
+
 var vectorSource = new ol.source.Vector({
         format: new ol.format.GeoJSON(),
         url: function(extent) {
