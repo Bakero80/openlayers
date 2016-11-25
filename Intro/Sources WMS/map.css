@@ -1,0 +1,9 @@
+#map{
+  height: 512px;
+  width: 1024px;
+}
+
+#title{
+  font-style: italic;
+  color: blue;
+}
