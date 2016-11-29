@@ -19,8 +19,8 @@ var map = new ol.Map({
         layers: [roads, imagery],
         target: container,
         view: new ol.View({
-          center: ol.proj.fromLonLat([-109, 46.5]),
-          zoom: 6
+          center: [-179234.679536, 5977176.756194],
+          zoom: 12
         })
     });
 
