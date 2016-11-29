@@ -20,7 +20,7 @@ var map = new ol.Map({
         target: container,
         view: new ol.View({
           center: [-179234.679536, 5977176.756194],
-          zoom: 12
+          zoom: 10
         })
     });
 
